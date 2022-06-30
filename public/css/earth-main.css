@@ -112,7 +112,9 @@
 .mes-better-btn-gen-mint{
     text-decoration: none;
     border:none;
-    background-image: url("../images/Button_Gen_Mint_BG.png");
+    background-image: url("../images/Button_Mint_BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 360px;
     height: 60px;
     margin:30px;
