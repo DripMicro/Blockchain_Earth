@@ -1,0 +1,589 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #332d22; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #927f56; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d7ba7d; 
+  }
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.mint-details-list{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.rm-stage2{
+    margin-top:-20px;
+}
+
+.stage-title{
+    color:#d7ba7d;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#instagram-icon:hover{
+    content: url('../images/header-instagram_hover.png');
+}
+
+#twitter-icon:hover{
+    content: url('../images/banner-twitter-btn_hover.png');
+}
+
+#discord-icon:hover{
+    content: url('../images/banner-discord-btn_hover.png');
+}
+
+.newHeader{
+    background-image: url("../images/Header_BG.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navLinkColour{
+    color: #927f56;
+    padding: 0.8vw;
+    font-size: 1vw;
+}
+.navLinkColour:hover{
+    color: #d7ba7d;
+}
+.dropShadowFx{    
+    -webkit-box-shadow: 0px 0px 15px -2px #000000; 
+    box-shadow: 0px 0px 15px -2px #000000;
+}
+.imgNav{
+    width:50%;
+}
+.mes-better-btn{
+    text-decoration: none;
+    border:none;
+    background-image: url("../images/Button_Large_BG.png");
+    width: 214px;
+    height: 60px;
+    margin:30px;
+    color:#927f56;
+    font-size: 22px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.mes-better-btn:hover{
+    color:#d7ba7d;
+
+}
+
+.mes-better-btn-mint{
+    text-decoration: none;
+    border:none;
+    background-image: url("../images/Button_Mint_BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 368px;
+    height: 60px;
+    margin:30px;
+    color:#927f56;
+    font-size: 22px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.mes-better-btn-mint:hover{
+    color:#d7ba7d;
+}
+
+.mes-better-btn-gen-mint{
+    text-decoration: none;
+    border:none;
+    background-image: url("../images/Button_Gen_Mint_BG.png");
+    width: 360px;
+    height: 60px;
+    margin:30px;
+    color:#927f56;
+    font-size: 22px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.mes-better-btn-gen-mint:hover{
+    color:#d7ba7d;
+}
+/* footer-css-start-here */
+.earth-footer {
+    background: url(../images/BG_Army.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 105px 0 110px;
+    color: #fff;
+    text-align: center;
+}
+.earth-footer .left-col-inner img {
+    max-height: 250px;
+    margin-bottom: 12px;
+}
+.earth-footer .center-col-inner .footer-subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: center;
+}
+.earth-footer h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.earth-footer .center-col-inner .btn-default {
+    box-shadow: inset 0 0 10px #aaa, 0 0 10px #aaa;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 800;
+    background: linear-gradient(150deg, #1BBD6B, #18A8AF);
+    padding: 14px 40px;
+    display: inline-block;
+    box-shadow: -5px -5px 5px 0 rgb(255 255 255 / 30%), 4px 4px 8px 0 rgb(255 255 255 / 25%), inset -4px -4px 4px 0 rgb(0 0 0 / 20%), -4px -4px 8px 0 rgb(0 0 0 / 25%), inset 4px 4px 4px 0 hsl(0deg 0% 100% / 40%), 4px 4px 8px 0 hsl(0deg 0% 100% / 20%);
+    font-size: 22px;
+}
+.earth-footer .center-col-inner .btn-default:hover {
+    background: linear-gradient(150deg, #18A8AF, #1BBD6B);
+}
+.cont-enquiry-form .col-md-12 {
+    text-align: center;
+    margin-top: 20px;
+}
+.earth-footer .center-col-inner img {
+    max-height: 28px;
+}
+.earth-footer .center-col-inner input, .earth-footer .cont-enquiry-form select {
+    padding: 15px 26px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    /* max-width: 606px; */
+    margin-right: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.earth-footer .center-col-inner input:focus, .earth-footer .cont-enquiry-form select:focus {
+    box-shadow: none;
+    border: 1px solid #1cc465;
+}
+.earth-footer .cont-enquiry-form input, .earth-footer .cont-enquiry-form select {
+    margin-bottom: 20px;
+}
+.earth-footer form {
+    margin-top: 25px;
+}
+.earth-footer .center-col-inner input::placeholder {
+    color: rgb(37 37 33 / 50%);
+}
+.earth-footer ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 22px;
+    font-weight: 600;
+    color: #927f56;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.earth-footer ul li a:hover {
+    color: #d7ba7d;
+    transition: 0.3s;
+}
+.earth-footer ul li a span {
+    background-color: #949494;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    transition: 0.3s;
+}
+.earth-footer ul li a:hover span {
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+.earth-footer ul li a:hover img {
+    transition: 0.3s;
+    filter: brightness(0) saturate(100%);
+}
+.earth-footer ul li a img {
+    max-height: 20px;
+}
+.earth-footer .right-col-inner h3 {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.earth-footer .right-col-inner {
+    float: right;
+}
+.earth-footer .left-col-inner {
+    float: left;
+}
+.footer-copy-right {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 50px;
+}
+.earth-footer .cont-enquiry-form select {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 35px;
+}
+.footer-copy-right p {
+    font-size: 20px;
+    font-weight: 400;
+}
+/* footer-css-end-here */
+/* animation-css-start */
+.w3-animate-opacity {
+    animation: opac 0.8s;
+}
+.w3-tooltip {
+    position: relative;
+}
+
+
+* {scroll-margin-top: 100px;}
+.modal-backdrop {
+    z-index: 0;
+}
+.modal .modal-body p {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.modal-footer button.btn.btn-secondary {
+    box-shadow: inset 0 0 10px #aaa, 0 0 10px #aaa;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 800;
+    background: linear-gradient(150deg, #1BBD6B, #18A8AF);
+    padding: 14px 40px;
+    display: inline-block;
+    box-shadow: -5px -5px 5px 0 rgb(255 255 255 / 30%), 4px 4px 8px 0 rgb(255 255 255 / 25%), inset -4px -4px 4px 0 rgb(0 0 0 / 20%), -4px -4px 8px 0 rgb(0 0 0 / 25%), inset 4px 4px 4px 0 hsl(0deg 0% 100% / 40%), 4px 4px 8px 0 hsl(0deg 0% 100% / 20%);
+}
+.modal-footer button.btn.btn-secondary:hover {
+    background: linear-gradient(150deg, #18A8AF, #1BBD6B);
+}
+.ethos-faction p, .solos-faction p {
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 100%;
+    text-align: center;
+}
+.ethos-faction, .solos-faction {
+    padding-top: 30px;
+}
+.ethos-faction p strong, .solos-faction p strong {
+    font-size: 24px;
+}
+.earth-mobile-content {
+    padding-top: 50px;
+}
+.faq-es-faction p {
+    letter-spacing: 0;
+}
+.earth-faq .accordion-body strong {
+    font-weight: 800;
+}
+.main-team-icon img:hover {
+    transition: 0.3s;
+    opacity: 0.8; 
+}
+.main-team-icon img {
+    width: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.main-tl-icons img {
+    margin: 0 4px;
+}
+
+
+/* responsive css */ 
+@media(max-width: 1850px) {
+    .mes-token-projects {
+        max-width: 850px;
+    }
+    .earth-mes-dao h4 {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+}
+@media(max-width: 1536px){
+        .team-army-man img, .mes-roadmap-army-man img, .mes-dao-army-man img {
+            max-height: 450px; 
+            object-fit: contain;
+        }
+        .earth-roadmap:before {
+            top: 60%;
+        }
+        .mes-token-projects {
+            max-width: 750px;
+        }
+        .earth-mes-dao h4 {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .mes-dao-army-man img {
+            max-height: 460px;
+            object-fit: contain;
+        }
+        .ethos-faction p, .solos-faction p {
+            font-size: 18px;
+        }
+        .earth-mobile-game {
+            padding-top: 80px;
+        }
+}
+    
+ @media(max-width: 1440px){
+      .earth-footer {
+        padding: 80px 0 70px;
+      }
+      .earth-faq {
+        padding: 80px 0 80px;
+      }
+      .earth-faq .accordion-button {
+        font-size: 20px;
+      }
+      .earth-roadmap {
+        padding: 80px 0 170px;
+      }
+      .mes-launch-rocket img {
+        max-height: 380px;
+    }
+    .earth-mes-dao h4 {
+        font-size: 20px;
+        max-width: 650px;
+    }
+    .mes-token-projects {
+        max-width: 650px;
+    }
+    .mes-dao-army-man img {
+        max-height: 400px;
+        object-fit: contain;
+    }
+    .main-team-icon img {
+        width: 35px;
+    }
+ }
+    
+ @media(max-width: 1366px){
+    .roadmap-inner-block ul li{
+          font-size: 16px;
+    }
+    .earth-faq .accordion-button {
+          font-size: 18px;
+    }
+    .earth-footer h3 {
+          font-size: 28px;
+    }
+    .roadmap-inner-block .stage-img p {
+        font-size: 18px;
+    }    
+
+ }
+    
+ @media(max-width: 1199px){
+       .team-army-man img, .mes-roadmap-army-man img, .mes-dao-army-man img {
+         max-height: 320px;
+       }
+      .earth-footer {
+        padding: 60px 0 50px;
+      }
+      .earth-faq {
+        padding: 70px 0 70px;
+      }
+      .earth-team {
+        padding: 70px 0 250px;
+    }
+      .earth-roadmap {
+        padding: 60px 0 100px;
+    }
+    .earth-roadmap:before {
+        top: 58%;
+        left: 45%;
+    } 
+    .mes-launch-rocket img {
+        max-height: 340px;
+    }
+    .mes-token-projects {
+        max-width: 550px;
+        padding: 20px 30px;
+    }
+ }
+ @media (max-width: 1024px) {
+    .earth-footer h3 {
+        font-size: 24px;
+    }
+    .earth-footer ul li a {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .earth-footer ul li a span {
+        width: 40px;
+        height: 40px;
+    }
+    .earth-footer ul li a img {
+        max-height: 18px;
+    }
+    .footer-copy-right p {
+        margin-top: 30px;
+    }
+    .earth-roadmap .col-md-4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .earth-roadmap .row .col-md-4:nth-child(2) {
+        order: -1;
+    }
+    .earth-roadmap {
+        padding-bottom: 300px;
+    }
+    .earth-roadmap:before {
+        top: 55%;
+        left: 55%;
+        max-width: 60%;
+        background-size: 100%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+ }   
+ @media (max-width: 991px){
+    
+    .navLinkColour{
+        font-size: 2.5vw;
+    }
+    .earth-team {
+        padding: 70px 0 180px;
+    }
+    .team-army-man img, .mes-roadmap-army-man img {
+        max-height: 250px;
+    }
+    .earth-footer .col-md-3:first-child {
+        width: 100%;
+    }
+    .earth-footer .col-md-6{
+        width: 65%;
+    }
+    .earth-footer .col-md-3:last-child  {
+        width: 35%; 
+    }
+    .earth-footer .left-col-inner {
+        float: none;
+        margin-bottom: 50px;
+    }
+    .earth-footer .center-col-inner form {
+        margin-top: 23px;
+    }
+    .earth-footer h3 {
+        font-size: 22px;
+        text-align: left;
+    }
+    .footer-copy-right {
+        text-align: center;
+        justify-content: center;
+    }
+    .earth-faq .accordion-button {
+        font-size: 16px;
+        padding: 30px;
+    }
+    .earth-faq .accordion-body, .earth-team h3 {
+        font-size: 15px;
+    }
+    .earth-team .team-inner-block img {
+        max-height: 150px;
+    }
+    .earth-team p {
+        font-size: 14px;
+    }
+    .mes-launch-rocket img {
+        max-height: 280px;
+    }
+    .earth-mes-dao {
+        padding-bottom: 360px;
+    }
+    .mes-token-projects {
+        max-width: 100%;
+        padding: 20px 30px;
+    }
+    .earth-mes-dao h4 {
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 65px;
+        z-index: 999;
+    }
+    .cont-enquiry-form .row .col-md-6 {
+        width: 100%;
+    }
+    .earth-roadmap {
+        padding-bottom: 190px;
+    }
+    .earth-mobile-content {
+        padding-top: 10px;
+    }
+ }
+    
+ @media(max-width: 767px){
+    
+    .rm-stage2{
+        margin-top:0;
+    }
+    .team-army-man img, .mes-roadmap-army-man img { max-height: unset; max-width: 250px; }
+    .earth-team { padding: 70px 0 0; }
+    .earth-footer .col-md-6 { width: 100%; }
+    .earth-footer .col-md-3:last-child { width: 100%; }
+    .earth-footer .right-col-inner { float: none; }
+    .earth-footer .right-col-inner{margin-top: 50px;}
+    .earth-footer h3 , .earth-footer .right-col-inner h3 {
+        text-align: center;
+    } 
+    
+    .earth-footer ul li a {
+        justify-content: center;
+    }
+    .earth-footer ul {
+        padding-bottom: 30px;
+    }
+    .earth-mobile-game {
+        padding-top: 50px;
+    }
+    .main-team-icon img {
+        width: 30px;
+    }
+}
+@media(max-width: 480px) {
+    .faction-right-img img {
+        max-width: 100%;
+        margin-top: 30px;
+        width: 100%;
+    }
+}

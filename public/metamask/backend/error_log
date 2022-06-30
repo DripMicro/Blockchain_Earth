@@ -1,0 +1,14 @@
+[28-Jun-2022 09:42:09 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 09:42:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 09:43:10 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 09:43:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 09:44:52 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 09:44:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:15:29 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:15:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:16:06 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:16:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:16:07 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:16:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:30:09 UTC] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11
+[28-Jun-2022 10:30:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/d2gzhtzfk50c/public_html/metamask/backend/server.php on line 11

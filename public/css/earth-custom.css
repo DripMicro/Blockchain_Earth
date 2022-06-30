@@ -1,0 +1,374 @@
+
+
+/* global css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ul{list-style: none; padding: 0; margin: 0;}
+body{/* font-family: 'Roboto', sans-serif;  */font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
+a{text-decoration: none;}
+h2{font-size: 64px; font-weight: 800; letter-spacing: 2px; margin-bottom: 20px;}
+
+/* header css */
+.fixed-header { position: fixed !important; top: 0; left: 0; width: 100%; }
+.earth-header.fixed-header .navbar-brand img{max-width: 110px;}
+.earth-header.fixed-header .header-social-icon ul li a img{width: 30px;}
+.earth-header{background: #1b1e0b; z-index: 999; position: relative;padding: 15px 0;}
+.earth-header:before{position: absolute; content: ''; width: 100%; height: 8px; background: #636754; top: 0; left: 0; right: 0; filter: blur(2px);}
+.earth-header::after{position: absolute; content: ''; width: 100%; height: 8px; background: #636754; bottom: 0; left: 0; right: 0; filter: blur(2px);}
+.earth-header .navbar-collapse{justify-content: flex-end;}
+.earth-header ul.navbar-nav, .newHeader ul.navbar-nav {
+  margin-right: 12%;
+}
+.earth-header ul.navbar-nav, .newHeader ul.navbar-nav li{margin-left: 25px;}
+.earth-header .navbar-light .navbar-nav .nav-link{text-transform: uppercase; color: #fff;}
+.earth-header .navbar-light .navbar-nav .nav-link:hover{color: #161616;}
+.header-social-icon ul{display: flex;}
+.header-social-icon ul li{margin-left: 1vw;}
+p, h4{letter-spacing: 2px;}
+
+/* banner section css */
+.earth-banner{background: #0d0d0d; position: relative;}
+.earth-banner .banner-content p{font-size: 20px; color: #fff; text-align: center; line-height: 2; max-width: 490px;}
+.banner-army-man img { max-height: 600px;}
+.earth-banner .banner-content{}
+.meta-earth-gradient-btn{text-align: center;}
+.meta-earth-gradient-btn a{box-shadow: inset 0 0 10px #aaa, 0 0 10px #aaa; border-radius: 20px; color: #000; font-weight: 700; background: linear-gradient(150deg, #1BBD6B, #18A8AF); padding: 14px 40px; display: inline-block; box-shadow: -5px -5px 5px 0 rgba(255,255,255,.3), 4px 4px 8px 0 rgba(255,255,255,.25), inset -4px -4px 4px 0 rgba(0,0,0,0.2),-4px -4px 8px 0 rgba(0,0,0,.25), inset 4px 4px 4px 0 hsla(0,0%,100%,0.4), 4px 4px 8px 0 hsla(0,0%,100%,.2); font-size: 22px;}
+.meta-earth-gradient-btn a:hover{background: linear-gradient(150deg, #18A8AF, #1BBD6B);}
+.banner-army-man{position: absolute; right: 40px; bottom: 0;}
+
+.mes-digital-collectibiles{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 140px 0 200px; color: #fff; text-align: center;}
+.mes-digital-collectibiles p{font-size: 25px; font-weight: 600;}
+.mes-digital-collectibiles .meta-earth-gradient-btn{margin: 30px 0 60px;}
+.mes-digital-collectibiles .unique-multichains span{display: block; text-align: center; color: #d7ba7d;}
+.full-access-eco p{margin: 50px auto 50px; font-weight: 500; letter-spacing: 2px;}
+.faction-center-content, .col-inner-box{    background: #332d22;  padding: 20px;border: 1px solid #6a5b3c;}
+.faction-center-content h3, .col-inner-box h3{color: #d7ba7d; font-size: 30px; font-weight: 600;}
+.faction-center-content p, .col-inner-box p{font-size: 18px; font-weight: 500;}
+.faction-center-content{ max-width: 360px; margin: auto;}
+.airdrop-winner-launchpad {
+  margin-top: 70px;
+  align-items: normal !important;
+}
+.airdrop-winner-launchpad .col-md-4 {
+  display: flex;
+}
+.earth-mest{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 100px 0 100px; color: #fff; text-align: center;}
+.earth-mest img{width: 80%; margin: auto;}
+.earth-mest p{font-size: 25px; font-weight: 500; margin-bottom: 50px;}
+
+
+.earth-mobile-game{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 140px 0; color: #fff; text-align: center; position: relative;}
+.earth-mobile-game h2{color: #d7ba7d; margin-bottom: 20px;}
+.earth-mobile-game p{font-size: 34px; letter-spacing: normal; max-width: 1100px; margin: auto;}
+.drop-down-arrow{margin: 50px 0;}
+.earth-mobile-game h3{font-size: 34px; margin: 70px 0 30px; color: #1cc465; font-weight: 700;}
+.earth-mobile-game .meta-earth-gradient-btn{margin-top: 70px;}
+.mble-app-store a{margin: 0 22px; display: inline-block;}
+.mble-app-store img{width: 70px; object-fit: contain;}
+.mes-mobile-army-man{position: absolute; right: 0; bottom: 0;}
+.mes-mobile-army-man img{height: 540px; object-fit: contain;}
+
+.earth-mesh-launchpad{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 125px 0 135px; color: #fff; text-align: center; position: relative;}
+.earth-mesh-launchpad h4{margin-bottom: 50px;}
+.mes-launch-rocket{position: absolute; bottom: 0; left: 0;}
+.mes-launch-rocket img{max-height: 560px; object-fit: contain;}
+.earth-mesh-launchpad .col-md-6.offset-md-6 {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.launchpad-content p {
+  max-width: 800px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+.earth-roadmap{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0 250px; color: #fff; text-align: center; position: relative;}
+/* .earth-roadmap .share-img{background: url(../images/roadmap-share.png) no-repeat; background-size: contain;} */
+.earth-roadmap:before {
+  content: "";
+  position: absolute;
+  top: 67%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  background: url(../images/roadmap-share.png) no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  max-width: 760px;
+}
+.roadmap-center-logo {
+  z-index: 1;
+  position: relative;
+}
+.earth-roadmap h4{font-size: 25px; font-weight: 500; max-width: 700px; margin: 0 auto 60px;z-index: 1;position: relative;}
+.mes-roadmap-army-man{position: absolute; left: 50%; transform: translateX(-50%); bottom: 0;}
+.mes-roadmap-army-man img{max-height: 480px; object-fit: contain;}
+.roadmap-inner-block{position: relative; margin-bottom: 80px;}
+.roadmap-inner-block ul{background: #332d22;border: 1px solid #6a5b3c; list-style: disc; padding: 20px; text-align: left; padding-top: 35px; padding-left: 40px;}
+.roadmap-inner-block ul li{font-size: 20px; color: #f1f1f1; font-weight: 500; letter-spacing: 2px; margin-bottom: 15px;}
+.roadmap-inner-block .stage-img{position: absolute; top: -20px; left: -24px; background: url(../images/stage-img.png) no-repeat; background-size: 100%; width: 350px; height: 115px; text-align: left;}
+.roadmap-inner-block .stage-img p{margin-top: 30px; font-size: 20px; color: #2d400a; font-weight: 800; padding-left: 30px;}
+
+.earth-mes-dao{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0; color: #fff; text-align: center; position: relative;}
+.mes-dao-army-man{position: absolute; bottom: 0; left: 0;z-index: 100;}
+.mes-dao-army-man img{max-height: 530px; object-fit: contain;}
+.mes-dao-category h5{display: inline-block; font-size: 25px; color: #fff; font-weight: 500; background: rgba(0, 0, 0, 0.6); border-radius: 20px; padding: 20px;}
+.earth-mes-dao .row .col-md-4:nth-child(2) .mes-dao-category{margin-top: 130px;}
+.earth-mes-dao h4{font-size: 25px; font-weight: 700; color: #d7ba7d; margin: 20px 0;}
+.earth-mes-dao .container{position: relative;}
+.mes-token-projects p{font-size: 25px; font-weight: 500; text-align: center; line-height: 2;}
+.mes-token-projects{background: #332d22;border: 1px solid #6a5b3c;padding: 30px 50px; max-width: 1082px; margin: auto;}
+
+
+
+
+.earth-team{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 150px 0 460px; color: #fff; text-align: center; position: relative; font-family: 'Oswald', sans-serif;}
+.earth-team h2{margin-bottom: 50px; font-family: 'Montserrat', sans-serif;}
+.earth-team h3{font-size: 16px; color: #9edb3b; font-weight: 600; margin-top: 20px; letter-spacing: 1px;}
+.earth-team p{font-size: 15px; color: #fff; letter-spacing: 1px; font-weight: 300;}
+.omar-experience {
+  margin-bottom: 5px;
+}
+.earth-team .team-inner-block{margin-bottom: 85px;}
+.earth-team .row{justify-content: center;}
+.team-army-man{position: absolute; left: 0; bottom: 5px;}
+.team-army-man img{max-height: 540px; object-fit: contain;}
+
+.earth-faq{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0 200px; color: #fff; text-align: center;}
+.earth-faq .accordion-button{background: rgb(36 34 25); padding: 40px; font-size: 24px; font-weight: 600; border-radius: 5px !important; color: #fff;}
+.earth-faq .accordion-button:hover {
+  background-color: #625f46;
+}
+.earth-faq .accordion-button:focus{border: none !important; box-shadow: none;}
+.earth-faq .accordion-item{background-color: unset; border: none; margin-bottom: 30px;}
+.earth-faq .accordion-body{background-color: rgb(255 255 255 / 85%); line-height: 2; border-radius: 0 0 5px 5px; color: #000; text-align: left; font-weight: 600;}
+.earth-faq .accordion-button::after{background-image: url(../images/faq-arrow.png); height: 23px;}
+.earth-faq .accordion-button:not(.collapsed)::after{transform: rotate(-90deg);}
+.earth-faq h2{margin-bottom: 40px;}
+.earth-mesh-launchpad .container{position: relative; z-index: 99;}
+.earth-mes-dao h2{margin-bottom: 0;}
+.earth-mobile-game .container{position: relative; z-index: 99;}
+
+.iframeCover{
+  width:50%;
+  height:100vh;
+}
+
+/* responsive css */
+@media(max-width: 1850px){
+  .iframeCover{
+    height:100%
+  }
+.banner-army-man img{max-height: 450px; object-fit: contain;}
+.earth-mobile-game {
+  padding-bottom: 510px;
+  
+}
+
+}
+
+@media(max-width: 1536px){
+  .earth-banner{}
+  .earth-banner .banner-content p{font-size: 16px;max-width: 510px;}
+  h2{font-size: 50px;}
+  .mes-digital-collectibiles p, .earth-mest p, .earth-mobile-game p, .mes-token-projects p, .launchpad-content p, .earth-mesh-launchpad h4, .earth-roadmap h4{font-size: 18px;}
+  .faction-center-content h3, .col-inner-box h3 {font-size: 22px;}
+  .faction-center-content p, .col-inner-box p {font-size: 16px;}
+  .mes-dao-category h5{font-size: 20px;}
+  .roadmap-inner-block ul li{font-size: 16px;}
+  .earth-faq .accordion-button{font-size: 18px;}
+  .earth-mest img { width: 70%;}
+  .mes-digital-collectibiles, .earth-mest, .earth-mes-dao, .earth-mesh-launchpad, .earth-faq{padding: 80px 0 100px;}
+  .airdrop-winner-launchpad { margin-top: 40px; }
+  .earth-mobile-game p{max-width: 590px;}
+  .earth-mobile-game h3{font-size: 24px;}
+  .full-access-eco p{max-width: 970px;}
+  .mes-launch-rocket img { max-height: 380px;}
+  .earth-team {
+    padding: 80px 0 380px;
+}
+
+
+}
+
+@media(max-width: 1440px){
+  .earth-banner .banner-content {  }
+  .earth-banner .banner-content p {
+    max-width: 520px;
+  }
+  
+}
+@media(max-width: 1399px) {
+  .earth-header ul.navbar-nav, .newHeader ul.navbar-nav {
+    margin-right: 8%;
+  }
+  .earth-mesh-launchpad h4 {
+    margin-bottom: 25px;
+}
+}
+
+@media(max-width: 1199px){
+  .banner-army-man img{max-height: 350px;}
+  .earth-banner .banner-content { }
+  .earth-banner { }
+  .header-social-icon ul li { margin-left: 20px; }
+  .header-social-icon ul li a img{width: 25px;vertical-align: baseline;}
+  .navbar-brand img{max-width: 140px;}
+  h2 {font-size: 40px;}
+  .mes-mobile-army-man img {height: 400px;}
+  .earth-mobile-game {
+    padding-bottom: 360px;
+}
+  .earth-header ul.navbar-nav, .newHeader ul.navbar-nav {
+  margin-right: 0;
+  }
+  .launchpad-content p {
+  max-width: 520px;
+}
+
+}
+@media(max-width: 1024px) {
+  .launchpad-content p {
+    max-width: 450px;
+}
+}
+@media(max-width: 991px){
+  .banner-army-man img{max-height: 250px;}
+  .navbar-light .navbar-toggler{border: none; margin-right: 0px;}
+  .navbar-light .navbar-toggler:focus{border: none; box-shadow: none;}
+  /* .navbar-light .navbar-toggler-icon{filter: brightness(0) saturate(100%) invert(91%) sepia(24%) saturate(1708%) hue-rotate(359deg) brightness(105%) contrast(104%);} */
+  .navbar-light .navbar-toggler-icon {
+    background: url(../images/menu-bar.png) no-repeat;
+    width: 40px;
+    height: 30px;
+    background-size: 100%;
+    border-radius: 4px;
+}
+  .navbar>.container{position: relative;}
+  /* .header-social-icon{position: absolute; right: 14px; top: 25px;} */
+  .earth-mest img { width: 90%; }
+  .mes-mobile-army-man img { height: 300px; }
+  .earth-header ul.navbar-nav, .newHeader ul.navbar-nav {
+    margin-right: 0;
+    align-items: center;
+    background-color: rgb(63 56 41);
+}
+.header-social-icon ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(63 56 41);
+}
+.earth-header ul.navbar-nav, .newHeader ul.navbar-nav li {
+  margin-left: 0;
+}
+.header-social-icon ul li {
+  margin-left: 0;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+.earth-header .navbar-light .navbar-nav li {
+  width: 100%;
+  text-align: center;
+}
+.earth-header .navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: #000;
+  padding: 15px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.header-social-icon ul li:last-child {
+  border: none;
+}
+.header-social-icon ul li a img {
+  width: 35px;
+}
+.earth-mobile-game .col-md-6 {
+  width: 100%;
+}
+.earth-mobile-game {
+  padding-bottom: 300px;
+}
+.earth-banner .banner-content p {
+  max-width: max-content;
+  text-align: center;
+}
+.earth-banner {
+
+}
+.earth-mesh-launchpad {
+  padding-top: 60px;
+  padding-bottom: 300px;
+}
+.launchpad-content p {
+  max-width: fit-content;
+}
+
+}
+
+@media(max-width: 767px){
+  .earth-banner .banner-content p{max-width: unset; text-align: center;}
+  .mes-token-projects p{text-align: center;}
+  .banner-army-man{position: relative; left: 0; right: 0; text-align: center;}
+  .banner-army-man img{max-height: unset; max-width: 300px; margin: auto;}
+  .earth-banner {  }
+  .earth-banner .banner-left-img{text-align: center; max-width: 300px; margin: auto;}
+  .meta-earth-gradient-btn a{padding: 12px 30px; font-size: 18px;}
+  .navbar-brand img { max-width: 110px; }
+  .earth-header::before, .earth-header::after{height: 5px;}
+  .header-social-icon{top: 18px;}
+  .header-social-icon ul li { margin-left: 10px; }
+  .header-social-icon ul li a img { width: 25px; }
+  .navbar-light .navbar-toggler { margin-right: 0px; }
+  h2 { font-size: 30px; }
+  p{font-size: 16px !important;}
+  .faction-left-img img{max-width: 300px; margin-bottom: 30px;}
+  .faction-right-img img{max-width: 300px; margin-top: 30px;}
+  .faction-center-content, .col-inner-box {margin-bottom: 20px;}
+  .mes-digital-collectibiles, .earth-mest, .earth-mobile-game, .earth-mes-dao, .earth-team, .earth-faq {padding: 50px 0;}
+  .drop-down-arrow { margin: 30px 0; }
+  .earth-mobile-game h3{margin: 30px 0;}
+  .earth-mobile-game .meta-earth-gradient-btn { margin-top: 30px; }
+  .mble-app-store img { width: 50px;}
+  .earth-mes-dao h2 { margin-bottom: 30px; }
+  .earth-mes-dao .row .col-md-4:nth-child(2) .mes-dao-category { margin-top: 0; }
+  .mes-dao-category h5 { font-size: 16px; }
+  .launchpad-content p { max-width: unset; text-align: center;}
+  .roadmap-center-logo{margin-bottom: 40px;}
+  .roadmap-inner-block {margin-bottom: 50px;}
+  .roadmap-inner-block{}
+  .roadmap-inner-block .stage-img{left: 0;}
+  .team-army-man{position: relative;}
+  .mes-mobile-army-man{position: relative; margin-top: 40px;}
+  .earth-mobile-game{padding-bottom: 0;}
+  h2, p, h4{letter-spacing: 1px;}
+  .roadmap-inner-block ul li{letter-spacing: 1px;}
+  .navbar-collapse {
+    overflow-x: hidden;
+  }
+  .earth-team .team-inner-block {
+    margin-bottom: 35px;
+}
+.airdrop-winner-launchpad .col-md-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media(max-width: 480px){
+  .earth-mest img{width: auto;}
+}
+
+@media(max-width: 420px){
+  .roadmap-inner-block .stage-img{width: 260px; height: 85px; }
+  .roadmap-inner-block .stage-img p{margin-top: 22px; padding-left: 20px;}
+}
