@@ -376,7 +376,7 @@ const Home = (props: HomeProps) => {
         //   // console.log('Metadata status: ', !!metadataStatus);
         // }
 
-        if (mintResult) {
+        if (mintResult === nftMintCount) {
           // manual update since the refresh might not detect
           // the change immediately
           let remaining = itemsRemaining! - 1;
@@ -394,7 +394,7 @@ const Home = (props: HomeProps) => {
         } else {
           setAlertState({
             open: true,
-            message: 'Mint failed! Please try again!',
+            message: `${nftMintCount - mintResult} NFT Mint failed! Please try again!`,
             severity: 'error',
           });
           refreshCandyMachineState();

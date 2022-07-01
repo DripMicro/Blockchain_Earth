@@ -650,13 +650,13 @@ export const mintSeveralToken = async (
   beforeTransactions: Transaction[] = [],
   afterTransactions: Transaction[] = [],
   setupState?: SetupState,
-): Promise<boolean> => {
+): Promise<number> => {
   let mintCnt = 0;
   
   const mintToken = async (loopNumber:number) : Promise<string | undefined> => {
     const tx = await mintOneToken(candyMachine, payer, beforeTransactions, afterTransactions, setupState);
     console.log(`transaction ${loopNumber + 1} complete`, tx);
-    mintCnt++;
+    if(tx?.mintTxId !== undefined) mintCnt++;
 
     if (loopNumber < index - 1) {
       console.log('minting another token...');
@@ -668,11 +668,7 @@ export const mintSeveralToken = async (
   const mintTx = await mintToken(0);
   console.log(mintTx);
 
-  if(mintCnt === index) {
-    return true;
-  } else {
-    return false;
-  }
+  return mintCnt;
 }
 
 export const shortenAddress = (address: string, chars = 4): string => {

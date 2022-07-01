@@ -96,8 +96,6 @@
     text-decoration: none;
     border:none;
     background-image: url("../images/Button_Mint_BG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 368px;
     height: 60px;
     margin:30px;
@@ -476,6 +474,48 @@
  }   
  @media (max-width: 991px){
     
+    .mobile-hide{
+        display: none;
+    }
+
+    .mes-better-btn-mint{
+        text-decoration: none;
+        border:none;
+        background-image: url("../images/Button_Mint_BG.png");
+        width: 100%;
+        height: 60px;
+        margin-top:30px;
+        margin-bottom:30px;
+        margin-left:0px;
+        margin-right:0px;
+        color:#927f56;
+        font-size: 22px;
+        font-family: "Segoe UI",Arial,sans-serif;
+    }
+    .mes-better-btn-mint:hover{
+        color:#d7ba7d;
+    }
+
+    .mes-better-btn-gen-mint{
+        text-decoration: none;
+        border:none;
+        background-image: url("../images/Button_Mint_BG.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60px;
+        margin-top:30px;
+        margin-bottom:30px;
+        margin-left:0px;
+        margin-right:0px;
+        color:#927f56;
+        font-size: 22px;
+        font-family: "Segoe UI",Arial,sans-serif;
+    }
+    .mes-better-btn-gen-mint:hover{
+        color:#d7ba7d;
+    }
+    
     .navLinkColour{
         font-size: 2.5vw;
     }
@@ -526,7 +566,7 @@
         max-height: 280px;
     }
     .earth-mes-dao {
-        padding-bottom: 360px;
+        padding-bottom: 50px;
     }
     .mes-token-projects {
         max-width: 100%;
@@ -581,6 +621,44 @@
     .main-team-icon img {
         width: 30px;
     }
+ 
+.mes-better-btn-mint{
+    text-decoration: none;
+    border:none;
+    background-image: url("../images/Button_Mint_BG.png");
+    width: 79%;
+    height: 60px;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:0px;
+    margin-right:0px;
+    color:#927f56;
+    font-size: 22px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.mes-better-btn-mint:hover{
+    color:#d7ba7d;
+}
+
+.mes-better-btn-gen-mint{
+    text-decoration: none;
+    border:none;
+    background-image: url("../images/Button_Mint_BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 79%;
+    height: 60px;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:0px;
+    margin-right:0px;
+    color:#927f56;
+    font-size: 22px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.mes-better-btn-gen-mint:hover{
+    color:#d7ba7d;
+}
 }
 @media(max-width: 480px) {
     .faction-right-img img {
@@ -588,4 +666,5 @@
         margin-top: 30px;
         width: 100%;
     }
+    
 }
