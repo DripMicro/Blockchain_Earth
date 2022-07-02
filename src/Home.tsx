@@ -464,7 +464,7 @@ const Home = (props: HomeProps) => {
       ? (formatNumber.asNumber(discountPrice)! * Number(e.target.value)  + 0.01188 * Number(e.target.value) < walletBalance / 1000000000)
       : (formatNumber.asNumber(candyMachine!.state.price)! * Number(e.target.value)  + 0.01188 * Number(e.target.value) < walletBalance / 1000000000);
     buttonStatus = buttonStatus && (Number(e.target.value) <= candyMachine!.state.itemsRemaining);
-    buttonStatus = buttonStatus && (Number(e.target.value) < 3);
+    buttonStatus = buttonStatus && (Number(e.target.value) < 16);
     setIsButtonActive(buttonStatus);
   }
 
