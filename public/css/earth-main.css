@@ -110,9 +110,7 @@
 .mes-better-btn-gen-mint{
     text-decoration: none;
     border:none;
-    background-image: url("../images/Button_Mint_BG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/Button_Gen_Mint_BG.png");
     width: 360px;
     height: 60px;
     margin:30px;
@@ -125,7 +123,7 @@
 }
 /* footer-css-start-here */
 .earth-footer {
-    background: url(../images/BG_Army.jpg) no-repeat center center;
+    background: url(../images/BG_Airforce.jpg) no-repeat center center;
     background-size: cover;
     padding: 105px 0 110px;
     color: #fff;
@@ -499,9 +497,7 @@
     .mes-better-btn-gen-mint{
         text-decoration: none;
         border:none;
-        background-image: url("../images/Button_Mint_BG.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../images/Button_Gen_Mint_BG.png");
         width: 100%;
         height: 60px;
         margin-top:30px;
@@ -643,9 +639,7 @@
 .mes-better-btn-gen-mint{
     text-decoration: none;
     border:none;
-    background-image: url("../images/Button_Mint_BG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/Button_Gen_Mint_BG.png");
     width: 90%;
     height: 60px;
     margin-top:30px;

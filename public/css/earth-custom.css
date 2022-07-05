@@ -53,12 +53,12 @@ p, h4{letter-spacing: 2px;}
 .airdrop-winner-launchpad .col-md-4 {
   display: flex;
 }
-.earth-mest{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 100px 0 100px; color: #fff; text-align: center;}
+.earth-mest{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 100px 0 100px; color: #fff; text-align: center;}
 .earth-mest img{width: 80%; margin: auto;}
 .earth-mest p{font-size: 25px; font-weight: 500; margin-bottom: 50px;}
 
 
-.earth-mobile-game{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 140px 0; color: #fff; text-align: center; position: relative;}
+.earth-mobile-game{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 140px 0; color: #fff; text-align: center; position: relative;}
 .earth-mobile-game h2{color: #d7ba7d; margin-bottom: 20px;}
 .earth-mobile-game p{font-size: 20px; letter-spacing: normal; max-width: 1100px; margin: auto;}
 .drop-down-arrow{margin: 50px 0;}
@@ -115,20 +115,24 @@ p, h4{letter-spacing: 2px;}
 .roadmap-inner-block .stage-img{position: absolute; top: -20px; left: -24px; background: url(../images/stage-img.png) no-repeat; background-size: 100%; width: 350px; height: 115px; text-align: left;}
 .roadmap-inner-block .stage-img p{margin-top: 30px; font-size: 20px; color: #2d400a; font-weight: 800; padding-left: 30px;}
 
-.earth-mes-dao{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0; color: #fff; text-align: center; position: relative;}
+.earth-mes-dao{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 150px 0; color: #fff; text-align: center; position: relative;}
+.earth-mes-pass{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0; color: #fff; text-align: center; position: relative;}
 .mes-dao-army-man{position: absolute; bottom: 0; left: 0;z-index: 100;}
 .mes-dao-army-man img{max-height: 530px; object-fit: contain;}
 .mes-dao-category h5{display: inline-block; font-size: 25px; color: #fff; font-weight: 500; background: rgba(0, 0, 0, 0.6); border-radius: 20px; padding: 20px;}
 .earth-mes-dao .row .col-md-4:nth-child(2) .mes-dao-category{margin-top: 130px;}
+.earth-mes-pass .row .col-md-4:nth-child(2) .mes-dao-category{margin-top: 130px;}
 .earth-mes-dao h4{font-size: 25px; font-weight: 700; color: #d7ba7d; margin: 20px 0;}
+.earth-mes-pass h4{font-size: 25px; font-weight: 700; color: #d7ba7d; margin: 20px 0;}
 .earth-mes-dao .container{position: relative;}
+.earth-mes-pass .container{position: relative;}
 .mes-token-projects p{font-size: 25px; font-weight: 500; text-align: center; line-height: 2;}
 .mes-token-projects{background: #332d22;border: 1px solid #6a5b3c;padding: 30px 50px; max-width: 1082px; margin: auto;}
 
 
 
 
-.earth-team{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 150px 0 10px; color: #fff; text-align: center; position: relative; font-family: 'Oswald', sans-serif;}
+.earth-team{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0 10px; color: #fff; text-align: center; position: relative; font-family: 'Oswald', sans-serif;}
 .earth-team h2{margin-bottom: 50px; font-family: 'Montserrat', sans-serif;}
 .earth-team h3{font-size: 16px; color: #9edb3b; font-weight: 600; margin-top: 20px; letter-spacing: 1px;}
 .earth-team p{font-size: 15px; color: #fff; letter-spacing: 1px; font-weight: 300;}
@@ -140,7 +144,7 @@ p, h4{letter-spacing: 2px;}
 .team-army-man{position: absolute; left: 0; bottom: 5px;}
 .team-army-man img{max-height: 540px; object-fit: contain;}
 
-.earth-faq{background: url(../images/BG_Airforce.jpg) no-repeat center center; background-size: cover; padding: 150px 0 200px; color: #fff; text-align: center;}
+.earth-faq{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 150px 0 200px; color: #fff; text-align: center;}
 .earth-faq .accordion-button{background: rgb(36 34 25); padding: 40px; font-size: 24px; font-weight: 600; border-radius: 5px !important; color: #fff;}
 .earth-faq .accordion-button:hover {
   background-color: #625f46;
@@ -153,6 +157,7 @@ p, h4{letter-spacing: 2px;}
 .earth-faq h2{margin-bottom: 40px;}
 .earth-mesh-launchpad .container{position: relative;}
 .earth-mes-dao h2{margin-bottom: 0;}
+.earth-mes-pass h2{margin-bottom: 0;}
 .earth-mobile-game .container{position: relative;}
 
 .iframeCover{
@@ -184,7 +189,7 @@ p, h4{letter-spacing: 2px;}
   .roadmap-inner-block ul li{font-size: 16px;}
   .earth-faq .accordion-button{font-size: 18px;}
   .earth-mest img { width: 70%;}
-  .mes-digital-collectibiles, .earth-mest, .earth-mes-dao, .earth-mesh-launchpad, .earth-faq{padding: 80px 0 100px;}
+  .mes-digital-collectibiles, .earth-mest, .earth-mes-dao, .earth-mes-pass, .earth-mesh-launchpad, .earth-faq{padding: 80px 0 100px;}
   .airdrop-winner-launchpad { margin-top: 40px; }
   .earth-mobile-game p{max-width: 590px;}
   .earth-mobile-game h3{font-size: 24px;}
@@ -333,13 +338,15 @@ p, h4{letter-spacing: 2px;}
   .faction-left-img img{max-width: 300px; margin-bottom: 30px;}
   .faction-right-img img{max-width: 300px; margin-top: 30px;}
   .faction-center-content, .col-inner-box {margin-bottom: 20px;}
-  .mes-digital-collectibiles, .earth-mest, .earth-mobile-game, .earth-mes-dao, .earth-team, .earth-faq {padding: 50px 0;}
+  .mes-digital-collectibiles, .earth-mest, .earth-mobile-game, .earth-mes-dao, .earth-mes-pass, .earth-team, .earth-faq {padding: 50px 0;}
   .drop-down-arrow { margin: 30px 0; }
   .earth-mobile-game h3{margin: 30px 0;}
   .earth-mobile-game .meta-earth-gradient-btn { margin-top: 30px; }
   .mble-app-store img { width: 50px;}
   .earth-mes-dao h2 { margin-bottom: 30px; }
+  .earth-mes-pass h2 { margin-bottom: 30px; }
   .earth-mes-dao .row .col-md-4:nth-child(2) .mes-dao-category { margin-top: 0; }
+  .earth-mes-pass .row .col-md-4:nth-child(2) .mes-dao-category { margin-top: 0; }
   .mes-dao-category h5 { font-size: 16px; }
   .launchpad-content p { max-width: unset; text-align: center;}
   .roadmap-center-logo{margin-bottom: 40px;}
