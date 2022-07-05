@@ -60,7 +60,7 @@ p, h4{letter-spacing: 2px;}
 
 .earth-mobile-game{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 140px 0; color: #fff; text-align: center; position: relative;}
 .earth-mobile-game h2{color: #d7ba7d; margin-bottom: 20px;}
-.earth-mobile-game p{font-size: 34px; letter-spacing: normal; max-width: 1100px; margin: auto;}
+.earth-mobile-game p{font-size: 20px; letter-spacing: normal; max-width: 1100px; margin: auto;}
 .drop-down-arrow{margin: 50px 0;}
 .earth-mobile-game h3{font-size: 34px; margin: 70px 0 30px; color: #1cc465; font-weight: 700;}
 .earth-mobile-game .meta-earth-gradient-btn{margin-top: 70px;}
@@ -128,7 +128,7 @@ p, h4{letter-spacing: 2px;}
 
 
 
-.earth-team{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 150px 0 460px; color: #fff; text-align: center; position: relative; font-family: 'Oswald', sans-serif;}
+.earth-team{background: url(../images/BG_Army.jpg) no-repeat center center; background-size: cover; padding: 150px 0 10px; color: #fff; text-align: center; position: relative; font-family: 'Oswald', sans-serif;}
 .earth-team h2{margin-bottom: 50px; font-family: 'Montserrat', sans-serif;}
 .earth-team h3{font-size: 16px; color: #9edb3b; font-weight: 600; margin-top: 20px; letter-spacing: 1px;}
 .earth-team p{font-size: 15px; color: #fff; letter-spacing: 1px; font-weight: 300;}
