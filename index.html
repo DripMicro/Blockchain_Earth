@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animation.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/earth-custom.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/earth-main.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/dialog.css" type="text/css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/favicon-icon.png">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.7/dist/index.js"></script>
+  <script type="text/javascript"
+    src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"></script>
+  <title>Meta Earth Service</title>
+</head>
+
+<body class="no-select">
+  <header class="newHeader">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img draggable="false" class="imgNav"
+            src="images/banner-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navLinkColour" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLinkColour" href="#about" data-id="NFT">Nfts</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLinkColour" href="#MES" data-id="MES">$MEST</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLinkColour" href="#P2E" data-id="P2E">P2E</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLinkColour" href="#roadmap" data-id="roadmap">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLinkColour" href="#team" data-id="team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="navLinkColour" href="#faq" data-id="faq">Faq</a>
+            </li>
+          </ul>
+          <div class="header-social-icon">
+            <ul>
+              <li><a href="https://discord.com/invite/MetaEarthService" target="_blank"><img draggable="false"
+                    class="img-fluid" id="discord-icon" src="images/banner-discord-btn.png"></a></li>
+              <li><a href="https://twitter.com/MetaEarth_NFT" target="_blank"><img draggable="false" class="img-fluid"
+                    id="twitter-icon" src="images/banner-twitter-btn.png"></a></li>
+              <li><a href="https://www.instagram.com/meta_earth_service/?hl=en" target="_blank"><img draggable="false"
+                    class="img-fluid" id="instagram-icon" src="images/header-instagram.png"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="earth-banner w3-animate-opacity" id="home">
+
+    <video width="100%" height="100%" autoplay loop muted>
+      <source src="videos/Trailer.mp4" type="video/mp4">
+    </video>
+
+  </section>
+
+  <section class="mes-digital-collectibiles w3-animate-opacity" id="about">
+    <div class="container">
+      <div>
+        <h2>MES GENESIS NFTS</h2>
+      </div>
+      <p>8,888 UNIQUE DIGITAL COLLECTIBLES ON SOLANA</p>
+
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <div class="unique-multichains">
+            <p>UNIQUE TRAITS<span>41</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="unique-multichains">
+            <p>SUB TRAITS<span> 263</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="unique-multichains">
+            <p>RARITY<span>VARIABLE</span></p>
+          </div>
+        </div>
+        <!--
+        <div class="row">
+          <div class="col-lg-12"
+            style="background-color: #332d22; border: 1px solid #6a5b3c;margin: 20px;padding:10px;padding-top: 20px;">
+            <p style="text-align: center;" ;><strong>RECRUITMENT WILL OPEN FOR SINORIANS GENESIS MINT ON <br>2ND JULY
+                2022 AT 21.00 GMT (BST)<br>
+                TWO FOR THE PRICE OF ONE - LOOK AT INFORMATION BELOW</strong></p>
+          </div>
+        </div>-->
+        
+        <!--
+        <div class="col-md-6">
+          <div class="launchpad-content">
+            <div class="">
+              <div class="user-login-msg">
+                <div class="col-md-12">
+                  <div class="roadmap-inner-block">
+                    <ul class="dropShadowFx">
+                      <p style="margin-bottom: 10px;" class="stage-title">SINORIANS MINT</p>
+                      <li class="mint-details-list">TOTAL MINTED SOL - 0/4444</li>
+                      <li class="mint-details-list">MAX MINTABLE - 15</li>
+                      <li class="mint-details-list">WL MINT PRICE - TBD</li>
+                      <li class="mint-details-list">WL MINT DATE - TBD</li>
+                      <li class="mint-details-list">PUBLIC MINT PRICE - TBD</li>
+                      <li class="mint-details-list">PUBLIC MINT DATE - TBD</li>
+                      <li class="mint-details-list">MINT GMT TIMES - TBD</li>
+                      <li class="mint-details-list">MINT PST TIMES - TBD</li>
+                      <div style="text-align: center;">
+                        <button class="mes-better-btn-gen-mint dropShadowFx" id="">MINTING SOON...</button>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="launchpad-content">
+            <div class="">
+              <div class="user-login-msg">
+                <div class="col-md-12">
+                  <div class="roadmap-inner-block">
+                    <ul class="dropShadowFx">
+                      <p style="margin-bottom: 10px;" class="stage-title">ERIDIANS MINT</p>
+                      <li class="mint-details-list">TOTAL MINTED ETH - 0/4444</li>
+                      <li class="mint-details-list">MAX MINTABLE - 15</li>
+                      <li class="mint-details-list">WL MINT PRICE - TBD</li>
+                      <li class="mint-details-list">WL MINT DATE - TBD</li>
+                      <li class="mint-details-list">PUBLIC MINT PRICE - TBD</li>
+                      <li class="mint-details-list">PUBLIC MINT DATE - TBD</li>
+                      <li class="mint-details-list">MINT GMT TIMES - TBD</li>
+                      <li class="mint-details-list">MINT PST TIMES - TBD</li>
+                      <div style="text-align: center;">
+                        <button class="mes-better-btn-gen-mint dropShadowFx" id="">MINTING SOON...</button>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12"
+            style="background-color: #332d22; border: 1px solid #6a5b3c;margin: 20px;padding:10px;padding-top: 20px;">
+            <p style="text-align: center;" ;><strong>BREAKING NEWS!<br><br></strong> MES ALWAYS LOOK HOW TO ADD BENEFIT
+              TO OUR COMMUNITY WITH THIS IN MIND</p><br>
+            <p style="text-align: center;" ;>WHEN YOU MINT A SINORIANS ‘GENESIS’ NFT YOU WILL RECEIVE A BONUS SINORIANS
+              ‘GENESIS’ NFT VIA AIRDROP UPON THE COLLECTION REVEAL.</p>
+          </div>
+        </div>
+        -->
+        <div class="col-md-12">
+          <div class="full-access-eco">
+            <p><!--
+              <strong>ALSO, THOSE WHO PURCHASE A SINORIANS ‘GENESIS’ NFT WILL BE ELIGIBLE FOR WHITELIST OF ERIDIANS COLLECTION
+                WITH A DISCOUNT OF 25% OFF WHITELIST PRICE.
+
+                <br><br>EXAMPLE: ERIDIANS WHITELIST PRICE (25% DISCOUNT): 0.15 ETH</strong>-->
+
+              THE MES NFT COLLECTION PROVIDES HOLDERS FULL ACCESS TO THE MES ECOSYSTEM. HOLDERS OF THE MES
+              GENESIS NFTS WILL BE ABLE TO ACCESS A COMMUNITY BASED DAPP WITH A PLAYABLE P2E STRATEGY GAME, SOPHISTICATED NFTS AND NATIVE CRYPTOCURRENCY.
+              <!--
+              <br><br>PLEASE NOTE THAT THOSE THAT HAVE TAKEN ADVANTAGE OF THE ‘PREMIUM PASS’ FREE MINT WHICH OPENS ON
+              THE 2ND JULY 2022 WILL BE ELIGIBLE FOR A WHITELIST SPOT FOR THE ‘GENESIS’ COLLECTION - FIRST 2920 ‘FREE
+              MINTERS’.-->
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="align-items-center use-faction-logo">
+        <img draggable="false" class="img-fluid dropShadowFx" src="images/shield-banner.jpg" width="100%"
+          height="500px">
+      </div>
+      <div class="row align-items-center airdrop-winner-launchpad">
+        <div class="col-md-4">
+          <div class="col-inner-box dropShadowFx">
+            <h3>RECEIVE $MES AIRDROPS</h3>
+            <p>GET CRUCIAL $MES SUPPLIES TO FIGHT FOR YOUR FACTION</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-inner-box dropShadowFx">
+            <h3>EARLY ACCESS</h3>
+            <p>BE IN LINE FOR EARLY ACCESS TO META WARFARE P2E</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-inner-box dropShadowFx">
+            <h3>WINNER'S DROP</h3>
+            <p>RECEIVE ADDITIONAL $MES SUPPLIES IF YOUR FACTION IS LEADING</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="earth-mes-pass w3-animate-opacity">
+    <div class="container">
+      <h2>MES PREMIUM PASS NFTS</h2><br>
+      <div class="row align-items-center">
+        <!--
+        <div class="col-md-6">
+          <div class="launchpad-content">
+            <div class="">
+              <div class="user-login-msg">
+                <div class="col-md-12">
+                  <div class="roadmap-inner-block">
+                    <ul class="dropShadowFx">
+                      <p style="margin-bottom: 10px;" class="stage-title">SINORIANS FREE MINT</p>
+                      <li class="mint-details-list">MAX MINTABLE - 2</li>
+                      <li class="mint-details-list">MINT PRICE - FREE</li>
+                      <li class="mint-details-list">MINT DATE - TBD</li>
+                      <li class="mint-details-list">MINT GMT TIME - TBD</li>
+                      <li class="mint-details-list">MINT PST TIME - TBD</li>
+                      <div style="text-align: center;">
+                        <button class="mes-better-btn-gen-mint dropShadowFx" id="">MINTING SOON...</button>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="launchpad-content">
+            <div class="">
+              <div class="user-login-msg">
+                <div class="col-md-12">
+                  <div class="roadmap-inner-block">
+                    <ul class="dropShadowFx">
+                      <p style="margin-bottom: 10px;" class="stage-title">ERIDIANS FREE MINT</p>
+                      <li class="mint-details-list">MAX MINTABLE - 2</li>
+                      <li class="mint-details-list">MINT PRICE - FREE</li>
+                      <li class="mint-details-list">MINT DATE - TBD</li>
+                      <li class="mint-details-list">MINT GMT TIME - TBD</li>
+                      <li class="mint-details-list">MINT PST TIME - TBD</li>
+                      <div style="text-align: center;">
+                        <button class="mes-better-btn-gen-mint dropShadowFx" id="">MINTING SOON...</button>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+        <div class="col-lg-12">
+
+          <h3>
+            </strong>PROVIDES FULL ACCESS TO THE META WARFARE 3V3 P2E GAME MODE. ADDED
+            BENEFITS OF OWNING THIS FREE NFT IS THE ABILITY TO ‘RENT OUT’ TO OTHERS, ALLOWING A COMMISSION BASED REWARD
+            SYSTEM ON ‘IN GAME’ EARNINGS FOR BOTH THE ‘RENTER’ AND THE HOLDER.
+            <br><br>THE COLLECTION IS SPLIT UP INTO THREE VARIATIONS, ‘BRONZE’ PROVIDING A 30% COMMISSION RATE, ‘SILVER’
+            PROVIDING A 40% COMMISSION RATE AND ‘GOLD’ PROVIDING A 50% COMMISSION RATE. IF YOU DECIDE TO PLAY RATHER
+            THAN RENT WITH YOUR PASS YOU'LL RETAIN 100% OF ALL EARNINGS.
+          </h3>
+        </div>
+      </div>
+      <div class="mes-launch-rocket">
+        <!--<img draggable="false" class="img-fluid" src="images/Artillary.png"> -->
+      </div>
+  </section>
+  <section class="earth-mest w3-animate-opacity" id="MES">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12">
+          <h2>Meta Earth Service Board Game</h2>
+          <img draggable="false" class="img-fluid" src="images/Game_Box_Shadow.png">
+          <p>Coming Soon...</p>
+          <!--
+          <div class="">
+            <a href="pdf/Meta_Earth_Service_Litepaper.pdf" target="_blank" class=""><button
+                class="mes-better-btn dropShadowFx">READ LITEPAPER</button></a>
+          </div>
+        -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="earth-mobile-game w3-animate-opacity" id="P2E">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>META WARFARE LORE</h2>
+          <p>Earth’s blockchains are fighting for world domination...</p><br>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="ERIDIANS-faction ">
+            <p><strong>ERIDIANS Faction<br></strong>
+              With the world’s economy in a state of collapse, nations across the globe frantically scrambled for any,
+              and
+              all resources they could find, not just within their own territory but encroaching into neighbouring
+              territories, mayhem ensued and eventually the inevitable happened, Global War.<br /><br />
+              With the War raging on for many years, savaging nations across the globe, untold lives were lost during
+              this
+              bone chilling time in history.<br /><br />
+              Eventually a stalemate ensued as no one nation were able to gain ground or superiority, through the spirit
+              of negotiation the remaining nations came together on a momentous day and signed a treaty which is written
+              in lore and known as the ‘ERIDIANS Accord’. From that day in history, it was agreed that ERIDIANS would reign
+              supreme, uniting all the nations under one banner and one single government for the good of the
+              people.<br /><br />
+              <strong>Supreme Leader Sargon - Announcement</strong><br />
+              “Deep within our social community” a virus has emerged, this virus and scourge on our very being calls
+              themselves ‘SINORIANS’. They seem to believe that they have freewill and that it’s the given right of all
+              sentient beings. They have had the audacity to demand that we, the ERIDIANS supreme command allow them this
+              right, that we should change our policies and the way we govern. We cannot and we will not allow this so
+              called ‘SINORIANS’ faction to prevail. To this end we now find ourselves in a ‘state of war’ against these
+              upstarts, we urge all of ERIDIANS to ‘stand fast’ and repel the imposters. ERIDIANS will be victorious.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="SINOTAINS-faction">
+            <p><strong>SINORIANS Faction<br></strong>
+              Born out of a world lead by an unfair and unjust leadership, a new nation has risen, no longer beholden to
+              a
+              dictatorship, no longer will we be silenced, a new world order and movement has immerged, ‘SINORIANS’. We
+              fight
+              for freedom, free speech and freewill which is the God given right of all sentinel beings.<br /><br />
+
+              Starting from a whisper, then a word, then an idea, with only our courage and conviction to free ourselves
+              from an oppressive regime. Our reach, our movement our nation has infiltrated theatres across the globe to
+              gain a foothold in key locations in readiness for the uprising.<br /><br />
+
+              Having grown from a movement to a nation, with courageous men and women who have ‘taken up arms’ uniting
+              us
+              all, we know that we have a long and bloody war ahead, but we will prevail and bring ERIDIANS to its
+              knees.<br /><br />
+
+              <strong>Supreme Leader Rimuc - Announcement</strong><br />
+              “We shall not yield or lose our way” Our fight continues, we have been successfully acquiring supply
+              chains
+              across the globe to bolster our ‘war chest’ having also infiltrated banking and financial institutions to
+              decentralise the old-world order. Our forces grow every day, and we will unleash the full force of our
+              military might against our old masters. No longer shall we be beholden to the tyranny, now is our time to
+              RISE, now is the time for SINORIANS to be Victorious.
+              We will win our freedom!”
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="mes-mobile-army-man">
+      <img draggable="false" class="img-fluid" src="images/mes-mobile-army-man.png">
+    </div>
+  </section>
+  <!--
+  <section class="earth-mes-dao w3-animate-opacity">
+    <div class="container">
+      <h2>MES DAO</h2>
+
+      <h4>PLACING THE FUTURE OF BLOCKCHAIN DOMINANCE IN YOUR HANDS.</h4>
+      <div class="mes-token-projects dropShadowFx">
+        <p>MES IS A COMMUNITY GOVERNED PROJECT<br />COMMUNITY MEMBERS WILL DETERMINE WHICH PROJECTS ARE APPROVED FOR THE
+          LAUNCHPAD</p>
+      </div>
+    </div>
+    <div class="mes-dao-army-man">
+      <img draggable="false" class="img-fluid mobile-hide" src="images/mes-dao-army-man.png" style="margin-bottom: 0;">
+    </div>
+  </section>
+  <section class="earth-mesh-launchpad w3-animate-opacity">
+    <div class="container">
+      <h2>MES LAUNCHPAD</h2>
+      <h4>INVEST IN MES ECOSYSTEM PROJECTS</h4>
+      <div class="row align-items-center">
+        <div class="col-md-6 offset-md-6">
+          <div class="launchpad-content">
+            <p>PROVIDING A PLATFORM FOR VETERANS. ACROSS THE GLOBE TO RAISE FUNDS FOR PROFIT & NONPROFIT VENTURES.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+  <section class="earth-mes-dao w3-animate-opacity" id="roadmap">
+    <div class="container share-img">
+      <h2>ROADMAP</h2>
+      <h4 style="margin-bottom:50px;">WE ARE IN THIS FOR THE LONG-HAUL. FIND OUT WHAT WE HAVE IN STORE FOR MES USERS
+      </h4>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="roadmap-inner-block">
+            <ul class="dropShadowFx">
+              <p class="stage-title">STAGE 1 - CLAUDIUS</p>
+              <li>MES PREMIUM PASS FREE MINT SINORIANS</li>
+              <li>MES GENESIS WHITELIST MINT SINORIANS</li>
+              <li>MES GENESIS PUBLIC MINT SINORIANS</li>
+              <li>MES PREMIUM PASS FREE MINT ERIDIANS</li>
+              <li>MES GENESIS WHITELIST MINT ERIDIANS</li>
+              <li>MES GENESIS PUBLIC MINT ERIDIANS</li>
+              <li>WHITEPAPER RELEASE</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="roadmap-inner-block">
+            <ul class="dropShadowFx">
+              <p class="stage-title">STAGE 2 - TIBERIUS</p>
+              <li>PROJECT AUDIT</li>
+              <li>AIRDROP NFT GIVEAWAYS</li>
+              <li>LOCK AND LOAD PUBLIC LAUNCH (STAKING)</li>
+              <li>META WARFARE 'PRIVATE ALPHA' RELEASE</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="roadmap-inner-block">
+            <ul class="dropShadowFx">
+              <p class="stage-title">STAGE 3 - OCTAVIAN</p>
+              <li>META WARFARE 'PRIVATE BETA' RELEASE</li>
+              <li>IRL COMMUNITY MEETUPS</li>
+              <li>META WARFARE 'PUBLIC BETA' RELEASE</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="roadmap-inner-block">
+            <ul class="dropShadowFx">
+              <p class="stage-title">STAGE 4 - CESAR</p>
+              <li>META WARFARE - 'FULL' RELEASE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="earth-team w3-animate-opacity" id="team">
+    <div class="container">
+      <h2>Team</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img1.png">
+            <h3>MATTHEW HUTCHINGS - (MD) IT DIRECTOR</h3>
+            <p>12 YEARS EXPERIENCE WITH F/E & B/E TECHNOLOGIES AND UNREAL ENGINE DEVELOPMENT</p>
+            <div class="main-tl-icons">
+              <a href="https://www.linkedin.com/in/matt-hutchings-spudmckenzie" target="_blank" class="main-team-icon">
+                <img draggable="false" class="img-fluid dropShadowFx" src="images/team-linkdin-icon.png"></a>
+
+              <a href="https://twitter.com/SpudMcKenzieOG" target="_blank" class="main-team-icon">
+                <img draggable="false" class="img-fluid dropShadowFx" src="images/team-twitter-icon.png"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img2.png">
+            <h3>JORDAN MORTON - (MD) UTILITIES DIRECTOR</h3>
+            <p>10 YEARS CUSTOMER MANAGEMENT</p>
+            <div class="main-tl-icons">
+              <a href="https://www.linkedin.com/in/jordan-morton-669966235" target="_blank" class="main-team-icon">
+                <img draggable="false" class="img-fluid dropShadowFx" src="images/team-linkdin-icon.png"></a>
+
+              <a href="https://twitter.com/JMrelentless" target="_blank" class="main-team-icon">
+                <img draggable="false" class="img-fluid dropShadowFx" src="images/team-twitter-icon.png"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img5.png">
+            <h3>JACOB GRANT - Creative Director </h3>
+            <p>10 YEARS EXPERIENCE AS A 3D MOTION GRAPHIC ARTIST</p>
+            <a href="https://www.linkedin.com/in/jacob-grant-90a16424/" target="_blank" class="main-team-icon">
+              <img draggable="false" class="img-fluid dropShadowFx" src="images/team-linkdin-icon.png"></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img14.png">
+            <h3>OMAR CHAUDHARY - NON EXEC DIRECTOR</h3>
+            <p class="omar-experience">TECHNOLOGY ADVISOR & INVESTOR</p>
+            <p>20+ YEARS EXPERIENCE OF TECHNICAL DELIVERY</p>
+            <a href="https://www.linkedin.com/in/omarchaudhary/" target="_blank" class="main-team-icon">
+              <img draggable="false" class="img-fluid dropShadowFx" src="images/team-linkdin-icon.png"></a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img12.png">
+            <h3>MIKE STACEY - GRAPHIC DEVELOPER</h3>
+            <p>10 YEARS EXPERIENCE AS A 3D MOTION/FILM GRAPHIC ARTIST</p>
+            <a href="https://www.linkedin.com/in/mike-stacey-a949a5227/" class="main-team-icon dropShadowFx"
+              target="_blank"><img draggable="false" class="img-fluid" src="images/team-linkdin-icon.png"></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img4.png">
+            <h3>PETER PARSONS - PROJECT MANAGER</h3>
+            <p>30+ YEARS SOFTWARE DEVELOPMENT, SALES AND MARKETING</p>
+            <a href="https://www.linkedin.com/in/peter-parsons-9b223433/" class="main-team-icon" target="_blank"><img
+                draggable="false" class="img-fluid" src="images/team-linkdin-icon.png"></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img15.png">
+            <h3>ICHIRO DAICHI - BLOCKCHAIN DEVELOPER</h3>
+            <p>8 YEARS EXPERIENCE SOFTWARE ENGINEERING</p>
+            <a href="https://www.linkedin.com/in/ichiro-daichi-a03388231/" target="_blank" class="main-team-icon">
+              <img draggable="false" class="img-fluid" src="images/team-linkdin-icon.png"></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img7.png">
+            <h3>JESSE MIGUEL CRUZ - 3D/2D ARTIST</h3>
+            <p>4 YEARS EXPERIENCE IN GRAPHIC 3D/2D ARTIST</p>
+            <!-- <a href="#" class="main-team-icon"><img draggable="false" class="img-fluid" src="images/team-linkdin-icon.png"></a> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img11.png">
+            <h3>MARCELLUS ROBERTS - LEAD MILITARY CONSULTANT</h3>
+            <p>RETIRED FROM MINISTRY OF DEFENCE (MOD) WITH EQUIVALENT RANK OF MAJOR</p>
+            <!--<a href="#" class="main-team-icon"><img draggable="false" class="img-fluid" src="images/team-linkdin-icon.png"></a> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-inner-block">
+            <img draggable="false" class="img-fluid" src="images/team-img11.png">
+            <h3>ANDY RIDEWOOD - 2IC MILITARY CONSULTANT</h3>
+            <p>22+ YEARS WITHIN THE BRITISH ARMY, RETIRED HAVING REACHED THE RANK OF WARRANT OFFICER</p>
+            <!-- <a href="#" class="main-team-icon"><img draggable="false" class="img-fluid" src="images/team-linkdin-icon.png"></a> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="earth-faq w3-animate-opacity" id="faq">
+    <div class="container">
+      <h2>MES FAQ</h2>
+      <div class="accordion accordion-flush" id="accordionFaq">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What Is MES (Meta Earth Service)?
+            </button>
+          </h3>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">Meta Earth Service consists of two NFT collections, the first is the Genesis and
+              is an 8,888 collection which is a unique, Authentic military P2E game asset for Meta Warfare and gives you
+              the upper hand on your opponents as well as the other utilities that come with it listed on the roadmap.
+              The
+              other is the Premium Pass and is also an 8,888 NFT collection that provides holder with access to the P2E
+              3v3 game modes in Meta Warfare. Our story is about the war between ERIDIANS & SINORIANS. Choose your faction and
+              pick a side to fight for the ultimate Blockchain dominance.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              How Big Are The Collections?
+            </button>
+          </h3>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">Both the Genesis and the Premium Pass collections will consist of 8,888 3D, High
+              Quality, MP4 NFTs.</div>
+          </div>
+        </div>
+        <div class="accordion-item" id="extra-feild">
+          <h3 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What Is The Release Date & Mint Price of The Genesis Collection?
+            </button>
+          </h3>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">
+              <strong>SINORIANS - TOTAL 4,444</strong><br>
+              <ul>
+                <li>WHITELIST FOR SINORIANS FACTION DATE TBD</li>
+                <li>PUBLIC SALE FOR SINORIANS FACTION DATE TBD</li>
+                <li>WHITELIST PRICE - TBD</li>
+                <li>PUBLIC SALE PRICE - TBD</li>
+                <li>MAXIMUM PURCHASE PER WALLET - 15</li>
+              </ul>
+              <br>
+              <strong>ERIDIANS - TOTAL 4,444</strong><br>
+              <ul>
+                <li>WHITELIST FOR ERIDIANS FACTION DATE TBD</li>
+                <li>PUBLIC SALE FOR ERIDIANS FACTION DATE TBD</li>
+                <li>WHITELIST PRICE - TBD</li>
+                <li>PUBLIC SALE PRICE - TBD</li>
+                <li>MAXIMUM PURCHASE PER WALLET - 15</li>
+                <li>25% DISCOUNT APPLIES FOR HOLDERS OF SINORIANS ‘GENESIS’ NFT</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingfour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+              Who Is The Team?
+            </button>
+          </h3>
+          <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">The artists responsible for the creation, rendering and animation of our meta
+              earth service collection are Jacob Grant and Mike Stacey, having worked on projects ranging from large
+              corporates such as Deutche Bank, Debenhams, Nike as well as productions such as Marvel’s “End Game” and
+              “Eternals” and DC’s “Suicide Squad” currently working in Unreal Engine 5 to deliver top tier quality art
+              for
+              everyone. The team responsible for marketing is Fracas NFT/Digital, who came up with the story and theme
+              for
+              the battle between ERIDIANS vs SINORIANS, and are responsible for the growth of socials, website design,
+              assigning
+              a smart contractor, social graphics. The founders include SpudMcKenzie, JMrelentless and Peter who had the
+              foresight and vision to incept the project, bringing something unique to the market place, that of inter
+              faction rivalry combined with utilities which add benefit to the community.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingfive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+              What Is ERIDIANS & SINORIANS?
+            </button>
+          </h3>
+          <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">
+              <div class="faq-es-faction">
+                <p><strong>ERIDIANS Faction</strong></p>
+                <p><strong>SINORIANS Faction</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingsix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+              When Will Meta Warfare Be Released?
+            </button>
+          </h3>
+          <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingsix"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">Q3/4 2022</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingten">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseten" aria-expanded="false" aria-controls="flush-collapseten">
+              What is the Meta Earth Service - Premium Pass NFT?
+            </button>
+          </h3>
+          <div id="flush-collapseten" class="accordion-collapse collapse" aria-labelledby="flush-headingten"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">By owning the MES - Premium Pass you'll gain access to the 3v3 Play 2 Earn game
+              mode for Meta Warfare. This mode is also available for any MES NFT holders, however the additional benefit
+              is that the MES - Premium Pass will allow you to rent out your pass to other players who may not own a MES
+              Genesis NFT but want to earn playing the 3v3 mode. In turn providing a split of all tokens earnt while
+              playing with the rented pass.</div>
+          </div>
+        </div>
+        <!--
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingeleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseeleven" aria-expanded="false" aria-controls="flush-collapseeleven">
+              How do I get a Meta Earth Service - Premium Pass NFT?
+            </button>
+          </h3>
+          <div id="flush-collapseeleven" class="accordion-collapse collapse" aria-labelledby="flush-headingeleven"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">
+              CONNECT YOUR WALLET TO TAKE ADVANTAGE OF THE ‘FREE MINT’ STARTING ON THE 1ST JULY 2022 AT 21.00 HRS GMT
+              FOR THE SINORIANS FACTION. THE FIRST 2920 ‘PREMIUM PASS’ HOLDERS WILL AUTOMATICALLY GET A FREE WHITELIST SPOT
+              FOR THE ‘GENESIS’ COLLECTION. AS AN ADDED BONUS FOR EACH SINORIANS NFT YOU MINT YOU WILL RECEIVE AN ERIDIANS NFT
+              WHICH WILL BE AIRDROPPED TO YOU WITHIN 14 DAYS OF FIRST MINT. ALLOCATION FOR FREE MINT IS - 2 PASSES PER
+              WALLET
+            </div>
+          </div>
+        </div>
+      -->
+      </div>
+    </div>
+  </section>
+  <footer class="earth-footer w3-animate-opacity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="left-col-inner">
+            <a href="http://devcmitexpert.com/meta-earth/index.html"><img draggable="false" class="img-fluid"
+                src="images/roadmap-earth-logo3.png"></a>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="center-col-inner">
+            <h3>Connect with us</h3>
+            <form action="mail.php" method="post">
+              <div class="cont-enquiry-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" id="your-name" name="your-name" placeholder="Name"
+                      aria-describedby="your-name" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
+                      aria-describedby="email" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="number" class="form-control" id="your-number" name="your-number"
+                      placeholder="Contact number" aria-describedby="your-number">
+                  </div>
+                  <div class="col-md-6">
+                    <select class="form-select" id="reason" name="reason">
+                      <option selected>Nature of enquiry</option>
+                      <option value="influencer">Influencer marketing enquiry</option>
+                      <option value="promotion">Promotion marketing enquiry</option>
+                      <option value="nft">NFT purchase enquiry</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn mes-better-btn dropShadowFx">SUBMIT</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="right-col-inner">
+            <h3>FOLLOW US</h3>
+            <ul>
+              <li><a href="https://twitter.com/MetaEarth_NFT" target="_blank"><span><img draggable="false"
+                      class="img-fluid" src="images/footer-twitter.png"></span>Twitter</a></li>
+              <li><a href="https://www.instagram.com/meta_earth_service/?hl=en" target="_blank"><span><img
+                      draggable="false" class="img-fluid" src="images/instagram.png"></span>Instagram</a></li>
+            </ul>
+            <!--
+            <div class="">
+              <a href="pdf/Meta_Earth_Service_Litepaper.pdf" target="_blank"><button class="mes-better-btn dropShadowFx"
+                  style="margin: 0;">LITEPAPER</button></a>
+            </div>
+          -->
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy-right">
+        <div class="right-content">
+          <p>© 2022 - MES</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="root"></div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/dialog.js"></script>
+  <script src="/metamask/frontend/web3-modal.js?v=010"></script>
+  <script src="/metamask/frontend/web3-login.js?v=010"></script>
+</body>
+
+</html>
